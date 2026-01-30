@@ -26,7 +26,7 @@ This is a React + TypeScript application built with Vite. The application allows
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone git@github.com:HosseinFarah/Roomalaisten-numeroiden-konvertteri.git
    cd my-app
    ```
 
