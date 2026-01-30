@@ -1,6 +1,7 @@
 import reactIcon from '../assets/react.svg';
 import linkedin from '../assets/linkedin.svg';
 import githubIcon from '../assets/github.svg';
+import gitco from '../assets/githubcopilot.svg';
 
 export function Footer() {
   return (
@@ -18,7 +19,9 @@ export function Footer() {
     >
       <div className="row d-flex justify-content-left">
         <p>
-          with <img src={reactIcon} alt="React" style={{ verticalAlign: 'middle', margin: '0 5px' }} /> by Hossein Farahkordmahaleh
+          with <img src={reactIcon} alt="React" style={{ verticalAlign: 'middle', margin: '0 5px' }} />,
+          <img src={gitco} alt="GitHub Copilot" style={{ verticalAlign: 'middle', margin: '0 5px', height:'37px', filter: 'invert(100%)' }} /> 
+          by Hossein Farahkordmahaleh
         </p>
       </div>
       <div className="social-media" style={{ marginTop: '10px' }}>
