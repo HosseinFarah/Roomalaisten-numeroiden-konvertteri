@@ -74,6 +74,7 @@ function App() {
       </div>
       <ToastContainer position="top-center" autoClose={1500} />
       <footer className="text-center mt-4 text-secondary">
+        <hr className='mb-2 border-1 border-secondary'/>
         Developed by Hossein Farahkordmahaleh
       </footer>
     </>
